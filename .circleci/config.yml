@@ -4,7 +4,7 @@ version: 2.1
 workflows:
   ophen-workflow:
     jobs:
-      - gradle/test
+      - gradle/test:
         store_artifacts: build/reports/
         test_command: OhpenTests
         test_results_path: build/test-results/cucumber-html-report.html/
