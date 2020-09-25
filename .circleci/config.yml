@@ -7,4 +7,4 @@ workflows:
       - gradle/test:
           context:
             - Ohpen
-          test_results_path: build/test-results/cucumber-html-report.html/
+          test_results_path: build/test-results/
