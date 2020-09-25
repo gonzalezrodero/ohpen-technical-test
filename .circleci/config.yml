@@ -7,4 +7,4 @@ workflows:
       - gradle/test:
           context:
             - Ohpen
-          test_results_path: build/reports/tests/test/
+          test_results_path: build/test-results/
