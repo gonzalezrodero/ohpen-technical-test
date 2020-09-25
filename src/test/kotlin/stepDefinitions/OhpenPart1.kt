@@ -2,7 +2,6 @@ package stepDefinitions
 
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
-import io.github.cdimascio.dotenv.Dotenv
 import org.assertj.core.api.Assertions.assertThat
 import org.slf4j.LoggerFactory
 import rest.GithubClient
