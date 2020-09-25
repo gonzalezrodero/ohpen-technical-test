@@ -5,4 +5,4 @@ workflows:
   ophen-workflow:
     jobs:
       - gradle/test:
-        test_results_path: build/test-results/cucumber-html-report.html/
+          test_results_path: build/test-results/cucumber-html-report.html/
