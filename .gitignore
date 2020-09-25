@@ -1,0 +1,17 @@
+.allure/
+.idea/
+.gradle/
+build/
+*.iml
+out/
+/reports/
+/target/
+*/target/
+*.pyc
+test-results/*
+**/.DS_Store
+.DS_Store
+*.log
+**/test-results/
+*.hprof
+.env
