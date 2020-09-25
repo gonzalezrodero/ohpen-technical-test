@@ -15,9 +15,8 @@ import rest.jsonSchemas.RegistrationToken
 class OhpenPart1 {
 
     private val log = LoggerFactory.getLogger(this::class.java)
-    private val dotenv = Dotenv.load()
     private val restClient = RestClient()
-    private val restApiVerbsClient = RestApiVerbsClient(restClient, dotenv["GITHUB_TOKEN"]!!)
+    private val restApiVerbsClient = RestApiVerbsClient(restClient, System.getenv("GITHUB_TOKEN"))
     private val githubClient = GithubClient(restApiVerbsClient)
 
     private lateinit var githubUser: GithubUser
